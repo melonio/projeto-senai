@@ -1,0 +1,70 @@
+/*botao do menu principal*/
+.menu-principal{
+    &__btn{
+        display: block;
+        width: 50px;
+        height: 50px;
+        text-indent: -9999px;
+        background-color: #fff;
+        background-image: url("../img/menuprincipal-btn-bg.png");
+        background-repeat: no-repeat;
+        background-position: -48px 7px;
+        border-radius: 5px;
+        border-color: #c4c4c4;
+        cursor: pointer;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+
+        @media(min-width: $breakpoint-md){
+            display: none;
+        }
+
+        /*Muda posição da imagem no botao ao clicar*/
+        //&--fechar{
+          //  background-position: -48px 7px;
+        //}
+    }
+    /*Definindo estilo UL principal*/
+    &__lista{
+        padding: 0;
+        list-style: none;
+        @media(min-width:$breakpoint-md){
+            li{
+                display: inline-block;
+                margin:0 10px;
+            }
+        }
+    }
+    /*Definir estilo de cada item da lista de itens*/
+    &__item{
+        text-decoration: none;
+        font-weight: bold;
+        color: #343434;
+        margin-bottom: 10px;
+        display: block;
+        font-size: 18px;
+        height: 20px;
+        transition: all 200ms ease-in-out;
+        /*Define a cor do link que está ativo*/
+        &--atual{
+            color: $cor-principal;
+        }
+    }
+    @media(max-width: $breakpoint-md - 1){
+        &--fechado{
+            .menu-principal__btn{
+                background-position: 5px 5px;
+            }
+            .menu-principal__lista{
+                margin:0;
+            }
+            .menu-principal__item{
+                margin: 0;
+                height: 0;
+                overflow: hidden;
+            }
+        }
+    }
+
+}

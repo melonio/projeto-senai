@@ -1,0 +1,90 @@
+/*Estiliza o cabeçalho do Main dentro do arquivo index*/
+.cabecalho-home{
+    background: url("../img/cabecalho-home-bg.jpg") #000 no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+/*Estiliza o texto dentro do cabeçalho do main*/
+.cabecalho-home__titulo{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+/*Elimina a visualização do link ROLE AQUI*/
+.cabecalho-home__role{
+    display: none;
+}
+/*Estiliza o Titulo O QUE SOMOS na última sessao*/
+.home__titulo{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+/*Cria o elemento em forma de barra após o titulo O QUE SOMOS */
+.home__titulo::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #f00;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+/*Cria o elemento branco em forma de barra após o titulo O QUE FALAM DE NOS */
+.home__titulo--branco::after{
+    background-color: #fff;
+}
+/*Define espacamento entre o primeiro servico e o cabecalho do main*/
+.servicos{
+    padding-top: 30px;
+}
+/*Estiliza as 3 sections interiores(desenvolvimento Web, E-commerce e Cafe) */
+.servicos__item{
+    text-align: center;
+    padding: 0 15px;
+    margin-bottom: 50px;
+}
+/* Estiliza cor no texto dentro das sections */
+.servicos__texto{
+    color: #585858;
+}
+/* Estiliza a sessao DEPOIMENTO */
+.depoimento{
+    background-color: #e04144;
+    background-image: url("../img/cabecalho-pagina-bg.jpg");
+    background-attachment: fixed;
+    color: #fff;
+    padding: 30px 0;
+}
+/* Estiliza a section de depoimento */
+.depoimento__item{
+    padding: 0 15px;
+}
+/* Define layout da imagem de depoimento */
+.depoimento__img{
+    margin: 0 auto;
+    display: block;
+    box-shadow: 3px 3px 0 #000;
+    margin-bottom: 30px;
+}
+/* Estiliza o texto NOME DA PESSOA */
+.depoimento__pessoa{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+/* estiliza o texto do depoimento */
+.depoimento__texto{
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+/* Definir as ASPAS grandes antes do texto depoimento */
+.depoimento__texto::before{
+    background: url("../img/aspas.png") no-repeat;
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 23px;
+    margin-right: 5px;
+}

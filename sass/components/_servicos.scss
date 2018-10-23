@@ -1,0 +1,19 @@
+/*Define espacamento entre o primeiro servico e o cabecalho do main*/
+.servicos{
+    padding-top: 30px;
+    overflow: auto;
+    /*Estiliza as 3 sections interiores(desenvolvimento Web, E-commerce e Cafe) */
+    &__item{
+        text-align: center;
+        padding: 0 15px;
+        margin-bottom: 50px;
+        @media(min-width: $breakpoint-md){
+            float: left;
+            width: 33.333%;
+        }
+    }
+    /* Estiliza cor no texto dentro das sections */
+    &__texto{
+        color: #585858;
+    }
+}

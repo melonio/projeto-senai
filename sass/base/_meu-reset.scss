@@ -1,0 +1,13 @@
+/*Torna todos os elementos da pagina para o tipo border box*/
+*{
+    box-sizing: border-box;
+}
+/*Deixa as imagens carregas sempre no tamanho inicial máximo*/
+img{
+    max-width: 100%;
+    height: auto;
+}
+/*Define a fonte para todo o conteúdo do body*/
+body{
+    font-family: "Source Sans Pro";
+}

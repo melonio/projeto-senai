@@ -1,0 +1,151 @@
+/*Torna todos os elementos da pagina para o tipo border box*/
+*{
+    box-sizing: border-box;
+}
+
+/*Deixa as imagens carregas sempre no tamanho inicial máximo*/
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*Definição de Familia de Fontes*/
+@font-face{
+    font-family: "Source Sans Pro";
+    src: url("../fonts/source-sans-pro/SourceSansPro-Regular.otf");
+}
+
+@font-face{
+    font-family: "Source Sans Pro";
+    src: url("../fonts/source-sans-pro/SourceSansPro-Bold.otf");
+    font-weight: bold;
+}
+@font-face{
+    font-family: "Source Sans Pro";
+    src: url("../fonts/source-sans-pro/SourceSansPro-BoldIt.otf");
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*Define a fonte para todo o conteúdo do body*/
+body{
+    font-family: "Source Sans Pro";
+}
+
+/*Define a cor do cabecalho e o espacamento*/
+.cabecalho{
+    background: #fff;
+    padding: 15px;
+}
+/*Logotipo*/
+.logo{
+    background-image: url("../img/logotipo-preto.png");
+    background-repeat: no-repeat;
+    display: block;
+    width: 120px;
+    height: 53px;
+    text-indent: -9999;
+    margin: 0;
+}
+
+.logo--branco{
+    background-image: url("../img/logotipo-branco.png");
+}
+
+/*botao do menu principal*/
+.menu-principal__btn{
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    background-color: #fff;
+    background-image: url("../img/menuprincipal-btn-bg.png");
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    border-radius: 5px;
+    border-color: #c4c4c4;
+    cursor: pointer;
+
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+/*Muda posição da imagem no botao ao clicar*/
+.menu-principal__btn--fechar{
+    background-position: -48px 7px;
+}
+
+/*Definindo estilo UL principal*/
+.menu-principal__lista{
+    padding: 0;
+    list-style: none;
+}
+
+/*Definir estilo de cada item da lista de itens*/
+.menu-principal__item{
+    text-decoration: none;
+    font-weight: bold;
+    color: #343434;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 18px;
+}
+
+/*Define a cor do link que está ativo*/
+.menu-principal__item--atual{
+    color: #f44242;
+}
+
+/*RODAPE*/
+.rodape{
+    color: #fff;
+}
+.rodape .logo{
+    margin-bottom: 20px;
+}
+
+/*Define imagem e estilo da primeira linha do rodape*/
+.rodape__linha-1{
+    background-color: #272525;
+    background-image: url("../img/rodape-bg.jpg");
+    background-size: cover;
+    padding: 15px;
+}
+/*Define imagem e estilo da  segunda linha do rodape*/
+.rodape__linha-2{
+    background-color: #000;
+    text-align: center;
+    padding: 15px;
+}
+
+/*Especifica a mesma dimensão para as 3 colunas do rodapé*/
+.rodape__coluna{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*Define lista de links*/
+.rodape__lista-links{
+    padding: 0;
+    list-style: none;
+}
+/*Define estilo dos H2*/
+.rodape__titulo{
+    border-bottom: 1px solid #fff;
+    padding: 0 10px 10px 10px;
+    font-size: 18px;
+}
+
+/*Define estilo links*/
+.rodape__lista-links__item{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.rodape__lista-links__item::before{
+    content: ">";
+    margin-right: 8px;
+    color: #f44242;
+}
