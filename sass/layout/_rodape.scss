@@ -7,7 +7,7 @@
     /*Define imagem e estilo da primeira linha do rodape*/
     &__linha-1{
         background-color: #272525;
-        background-image: url("../img/rodape-bg.jpg");
+        background-image: url("../img2/footer-bg.png");
         background-size: cover;
         padding: 15px;
         overflow: auto;
@@ -48,7 +48,7 @@
     }
     @media(min-width: $breakpoint-md){
         &__linha-1{
-            background-image: url("../img/rodape-bg-md.jpg");
+            background-image: url("../img2/footer-bg.png");
         }
         &__coluna{
             float: left;
@@ -58,7 +58,32 @@
     }
     @media(min-width: $breakpoint-xl){
         &__linha-1{
-            background-image: url("../img/rodape-bg-xl.jpg");
+            background-image: url("../img2/footer-bg.png");
         }
     }
+}
+
+// i{
+//     font-size: 7px;
+//     border-radius: 10px;
+//     height: 20px;
+//     width: 20px;
+//     background-color: #fff;
+// }
+
+// .fb{
+//     color: #015162;
+// }
+
+
+.fa-facebook-f:before {
+    // padding: 8px 10px;
+    // border-radius: 40px;
+    padding: 4px 6px;
+    border-radius: 30px;
+    font-size: 8px;
+    /* height: 20px; */
+    /* width: 20px; */
+    background-color: #fff;
+    color: #015162;
 }

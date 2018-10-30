@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*Definição de Familia de Fontes*/
+/*Defini├º├úo de Familia de Fontes*/
 @font-face {
   font-family: "Source Sans Pro";
   src: url("../fonts/source-sans-pro/SourceSansPro-Regular.otf"); }
@@ -16,12 +16,12 @@
 * {
   box-sizing: border-box; }
 
-/*Deixa as imagens carregas sempre no tamanho inicial máximo*/
+/*Deixa as imagens carregas sempre no tamanho inicial m├íximo*/
 img {
   max-width: 100%;
   height: auto; }
 
-/*Define a fonte para todo o conteúdo do body*/
+/*Define a fonte para todo o conte├║do do body*/
 body {
   font-family: "Source Sans Pro"; }
 
@@ -331,8 +331,9 @@ template {
 /* Estiliza a section de depoimento */
 /* Estiliza a sessao DEPOIMENTO */
 .depoimento {
-  background-color: #e04144;
-  background-image: url("../img/cabecalho-pagina-bg.jpg");
+  background-image: url("../img2/bg-depoiment.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
   color: #fff;
   padding: 30px 0;
@@ -348,7 +349,9 @@ template {
     margin: 0 auto;
     display: block;
     box-shadow: 3px 3px 0 #000;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    width: 100px;
+    height: auto; }
   .depoimento__pessoa {
     text-align: center;
     font-weight: bold;
@@ -438,11 +441,11 @@ template {
 
 /*Logotipo*/
 .logo {
-  background-image: url("../img/logo3.png");
+  background-image: url("../img2/logo-primary.png");
   background-repeat: no-repeat;
   display: block;
-  width: 120px;
-  height: 53px;
+  width: 153px;
+  height: 49px;
   text-indent: -9999;
   margin: 0; }
   .logo--branco {
@@ -491,7 +494,7 @@ template {
     position: absolute;
     top: 15px;
     right: 15px;
-    /*Muda posição da imagem no botao ao clicar*/ }
+    /*Muda posi├º├úo da imagem no botao ao clicar*/ }
     @media (min-width: 768px) {
       .menu-principal__btn {
         display: none; } }
@@ -511,7 +514,7 @@ template {
     font-size: 18px;
     height: 20px;
     transition: all 200ms ease-in-out;
-    /*Define a cor do link que está ativo*/ }
+    /*Define a cor do link que est├í ativo*/ }
     .menu-principal__item--atual {
       color: #e04144; }
   @media (max-width: 767px) {
@@ -527,7 +530,7 @@ template {
 /*Define estilos para a pagina sobre*/
 .pagina-cabecalho {
   background-color: #e04144;
-  background-image: url("../img/cabecalho-pagina-bg.jpg");
+  background-image: url("../img2/footer-bg.png");
   background-attachment: fixed;
   color: #fff;
   padding-top: 140px;
@@ -558,6 +561,7 @@ template {
 
 /*Define espacamento entre o primeiro servico e o cabecalho do main*/
 .servicos {
+  background-color: #e9e0d1;
   padding-top: 30px;
   overflow: auto;
   /*Estiliza as 3 sections interiores(desenvolvimento Web, E-commerce e Cafe) */
@@ -573,16 +577,16 @@ template {
   .servicos__texto {
     color: #585858; }
 
-/*Estiliza o cabeçalho do Main dentro do arquivo index*/
+/*Estiliza o cabe├ºalho do Main dentro do arquivo index*/
 .cabecalho-home {
-  background: url("../img/cabecalho-home-bg.jpg") #000 no-repeat;
+  background: url("../img2/bg-primary.png") #000 no-repeat;
   background-size: cover;
   color: #fff;
   text-align: center;
   padding: 50px 0;
   padding-top: 150px;
-  /*Estiliza o texto dentro do cabeçalho do main*/
-  /*Elimina a visualização do link ROLE AQUI*/ }
+  /*Estiliza o texto dentro do cabe├ºalho do main*/
+  /*Elimina a visualiza├º├úo do link ROLE AQUI*/ }
   .cabecalho-home__titulo {
     font-size: 40px;
     margin-bottom: 0; }
@@ -590,13 +594,14 @@ template {
     display: none; }
   @media (min-width: 768px) {
     .cabecalho-home {
-      background-image: url("../img/cabecalho-home-bg-md.jpg"); } }
+      background-image: url("../img2/bg-primary.png"); } }
   @media (min-width: 992px) {
     .cabecalho-home {
       height: 100vh; }
       .cabecalho-home__titulo {
         font-size: 60px;
-        margin-top: 200px; }
+        margin-top: 200px;
+        text-shadow: 0 0 10px #015666; }
       .cabecalho-home__subtitulo {
         font-size: 23px; }
       .cabecalho-home__role {
@@ -615,15 +620,15 @@ template {
         margin-left: -95px; } }
   @media (min-width: 1200px) {
     .cabecalho-home {
-      background-image: url("../img/cabecalho-home-bg-xl.jpg"); } }
+      background-image: url("../img2/bg-primary.png"); } }
 
-/*Estiliza o Titulo O QUE SOMOS na última sessao*/
+/*Estiliza o Titulo O QUE SOMOS na ├║ltima sessao*/
 .home__titulo {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 50px;
-  /*Cria o elemento em forma de barra após o titulo O QUE SOMOS */
-  /*Cria o elemento branco em forma de barra após o titulo O QUE FALAM DE NOS */ }
+  /*Cria o elemento em forma de barra ap├│s o titulo O QUE SOMOS */
+  /*Cria o elemento branco em forma de barra ap├│s o titulo O QUE FALAM DE NOS */ }
   .home__titulo::after {
     content: "";
     display: block;
@@ -728,7 +733,7 @@ template {
   color: #fff;
   /*Define imagem e estilo da primeira linha do rodape*/
   /*Define imagem e estilo da  segunda linha do rodape*/
-  /*Especifica a mesma dimensão para as 3 colunas do rodapé*/
+  /*Especifica a mesma dimens├úo para as 3 colunas do rodap├®*/
   /*Define estilo dos H2*/
   /*Define estilo links*/
   /*Define lista de links*/ }
@@ -736,7 +741,7 @@ template {
     margin-bottom: 20px; }
   .rodape__linha-1 {
     background-color: #272525;
-    background-image: url("../img/rodape-bg.jpg");
+    background-image: url("../img2/footer-bg.png");
     background-size: cover;
     padding: 15px;
     overflow: auto; }
@@ -765,14 +770,23 @@ template {
       color: #e04144; }
   @media (min-width: 768px) {
     .rodape__linha-1 {
-      background-image: url("../img/rodape-bg-md.jpg"); }
+      background-image: url("../img2/footer-bg.png"); }
     .rodape__coluna {
       float: left;
       width: 33.333%;
       padding: 0 15px; } }
   @media (min-width: 1200px) {
     .rodape__linha-1 {
-      background-image: url("../img/rodape-bg-xl.jpg"); } }
+      background-image: url("../img2/footer-bg.png"); } }
+
+.fa-facebook-f:before {
+  padding: 4px 6px;
+  border-radius: 30px;
+  font-size: 8px;
+  /* height: 20px; */
+  /* width: 20px; */
+  background-color: #fff;
+  color: #015162; }
 
 .container {
   margin: 0 auto;

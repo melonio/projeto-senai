@@ -1,6 +1,6 @@
 /*Estiliza o cabeçalho do Main dentro do arquivo index*/
 .cabecalho-home{
-    background: url("../img/cabecalho-home-bg.jpg") #000 no-repeat;
+    background: url("../img2/bg-primary.png") #000 no-repeat;
     background-size: cover;
     color: #fff;
     text-align: center;
@@ -16,13 +16,14 @@
         display: none;
     }
     @media(min-width: $breakpoint-md){
-        background-image: url("../img/cabecalho-home-bg-md.jpg");
+        background-image: url("../img2/bg-primary.png");
     }
     @media(min-width: $breakpoint-lg){
         height: 100vh;
         &__titulo{
             font-size: 60px;
             margin-top: 200px;
+            text-shadow: 0 0 10px #015666;
         }
         &__subtitulo{
             font-size: 23px;
@@ -44,7 +45,7 @@
         }
     }
     @media(min-width:$breakpoint-xl){
-        background-image: url("../img/cabecalho-home-bg-xl.jpg");
+        background-image: url("../img2/bg-primary.png");        
     }
 }
 
@@ -53,6 +54,7 @@
 .home__titulo{
     text-align: center;
     text-transform: uppercase;
+    
     margin-bottom: 50px;
     /*Cria o elemento em forma de barra após o titulo O QUE SOMOS */
     &::after{
