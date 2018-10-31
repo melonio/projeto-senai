@@ -9,10 +9,10 @@
                 <div class="rodape__coluna"><!--Div links Redes Sociais-->
                     <h2 class="rodape__titulo">Social</h2>
                     <ul class="rodape__lista-links">
-                        <li><a class="rodape__lista-links__item" href="https://twitter.com" target="_blank"></i>Twitter</a></li>
+                        <li><a class="rodape__lista-links__item" href="https://twitter.com" target="_blank"></i><i class="fab fa-twitter"></i>Twitter</a></li>
                         <li><a class="rodape__lista-links__item" href="https://facebook.com"target="_blank"><i class="fab fa-facebook-f circle"></i>Facebook</a></li>
-                        <li><a class="rodape__lista-links__item" href="https://instagram.com" target="_blank">Instagram</a></li>
-                        <li><a class="rodape__lista-links__item" href="https://youTube.com" target="_blank">YouTube</a></li>
+                        <li><a class="rodape__lista-links__item" href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i>Instagram</a></li>
+                        <li><a class="rodape__lista-links__item" href="https://youTube.com" target="_blank"><i class="fab fa-youtube"></i>YouTube</a></li>
                     </ul>
                 </div><!--Fim div links Redes Sociais-->
                 <div class="rodape__coluna"> <!--LINKS-->

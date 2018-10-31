@@ -76,14 +76,15 @@
 // }
 
 
-.fa-facebook-f:before {
-    // padding: 8px 10px;
-    // border-radius: 40px;
-    padding: 4px 6px;
-    border-radius: 30px;
-    font-size: 8px;
-    /* height: 20px; */
-    /* width: 20px; */
+.fa-facebook-f:before, .fa-twitter:before, .fa-instagram:before, .fa-youtube:before {
+    $valor: 19px;
+    display: block;
+    border-radius: $valor/2;
+    font-size: ($valor/2)-2;
+    height: $valor; 
+    width: $valor;
+    text-align: center;
+    line-height: $valor; 
     background-color: #fff;
     color: #015162;
 }

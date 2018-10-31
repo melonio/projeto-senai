@@ -14,7 +14,8 @@
   font-style: italic; }
 /*Torna todos os elementos da pagina para o tipo border box*/
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  outline: none !important; }
 
 /*Deixa as imagens carregas sempre no tamanho inicial m├íximo*/
 img {
@@ -414,11 +415,11 @@ template {
   .formulario__label {
     color: #343434; }
   .formulario__botao {
-    border: 3px solid #e04144;
+    border: 3px solid #062e38;
     border-radius: 300px;
     background-color: #fff;
     padding: 5px 20px;
-    color: #e04144;
+    color: #062e38;
     cursor: pointer;
     display: block;
     margin: 0 auto;
@@ -453,7 +454,7 @@ template {
 
 /*Estiliza o mapa*/
 .mapa {
-  background: #e04144;
+  background: #062e38;
   height: 0;
   padding-bottom: 100%;
   position: relative;
@@ -516,7 +517,7 @@ template {
     transition: all 200ms ease-in-out;
     /*Define a cor do link que est├í ativo*/ }
     .menu-principal__item--atual {
-      color: #e04144; }
+      color: #062e38; }
   @media (max-width: 767px) {
     .menu-principal--fechado .menu-principal__btn {
       background-position: 5px 5px; }
@@ -529,7 +530,7 @@ template {
 
 /*Define estilos para a pagina sobre*/
 .pagina-cabecalho {
-  background-color: #e04144;
+  background-color: #062e38;
   background-image: url("../img2/footer-bg.png");
   background-attachment: fixed;
   color: #fff;
@@ -634,7 +635,7 @@ template {
     display: block;
     width: 50px;
     height: 3px;
-    background-color: #e04144;
+    background-color: #062e38;
     margin: 0 auto;
     margin-top: 15px; }
   .home__titulo--branco::after {
@@ -667,7 +668,7 @@ template {
       width: 50%;
       margin: 0;
       float: left;
-      background-color: #e04144;
+      background-color: #062e38;
       overflow: hidden; }
       .lista-trabalho__item:hover .lista-trabalho__img {
         opacity: 0.1;
@@ -767,7 +768,7 @@ template {
     .rodape__lista-links__item::before {
       content: ">";
       margin-right: 8px;
-      color: #e04144; }
+      color: #062e38; }
   @media (min-width: 768px) {
     .rodape__linha-1 {
       background-image: url("../img2/footer-bg.png"); }
@@ -779,12 +780,14 @@ template {
     .rodape__linha-1 {
       background-image: url("../img2/footer-bg.png"); } }
 
-.fa-facebook-f:before {
-  padding: 4px 6px;
-  border-radius: 30px;
-  font-size: 8px;
-  /* height: 20px; */
-  /* width: 20px; */
+.fa-facebook-f:before, .fa-twitter:before, .fa-instagram:before, .fa-youtube:before {
+  display: block;
+  border-radius: 9.5px;
+  font-size: 7.5px;
+  height: 19px;
+  width: 19px;
+  text-align: center;
+  line-height: 19px;
   background-color: #fff;
   color: #015162; }
 

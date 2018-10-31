@@ -47,7 +47,7 @@ $(document).ready(function(){
     //Pluggin para executar o carrossel de depoimentos no index.html
     $('.depoimento__caixa').slick({
         autoplay: true,
-        arrows: false,
+        arrows: true,
         dots: true
     });
     //Pluggin para validação de formulário
@@ -74,5 +74,21 @@ $(document).ready(function(){
                 minlength: "Por favor escreva mais de 10 caracteres"
             }
         }
+    });
+
+    $(".menu-principal__item--atual").css("color", "#f00");
+
+    $("#logo").on("mouseover", function(){
+        $(this).addClass("animated tada");
+    })
+    $("#logo").on("mouseout", function(){
+        $(this).removeClass("animated tada");
+    })
+
+    $(".cabecalho-home__role").on("mouseover", function(){
+        $(this).addClass("animated bounce")
+    });
+    $(".cabecalho-home__role").on("mouseout", function(){
+        $(this).removeClass("animated bounce")
     });
 });

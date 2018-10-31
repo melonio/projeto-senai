@@ -4,8 +4,8 @@
     include "cabecalho.php"; 
 ?>
         <header class="cabecalho-home">
-            <h2 class="cabecalho-home__titulo">Texto grande!</h2>
-            <p class="cabecalho-home__lista">Texto menor</p>
+            <h2 class="cabecalho-home__titulo animated jello delay-2s">Viva a vida com a intensidade que ela merece!</h2>
+            <p style="display: none;" class="cabecalho-home__lista">Texto menor</p>
             <a class="cabecalho-home__role" href="#servicos">Role para ver mais</a>
         </header>
         <section id="servicos" class="servicos"><!--Inicio sessao servicos-->

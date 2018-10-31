@@ -20,12 +20,12 @@
     <!-- CSS AQUI-->
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css"/>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 </head>
 <body>
     <header class="cabecalho">
         <div class="container"> <!--Inicio container 1-->
-            <a href="index.php"><h1 class="logo">Design Responsivo(LOGOMARCA)</h1></a>
+            <a href="index.php"><h1 id="logo" class="logo">Design Responsivo(LOGOMARCA)</h1></a>
             <nav class="menu-principal menu-principal--fechado">
                 <button class="menu-principal__btn">Abrir/Fechar Menu</button> <!--Servira para abrir o Menu de Navegacao-->
                 <ul class="menu-principal__lista">
