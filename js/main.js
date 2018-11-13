@@ -75,9 +75,10 @@ $(document).ready(function(){
             }
         }
     });
-
+    //cor do menu selecionado
     $(".menu-principal__item--atual").css("color", "#f00");
 
+    //animação da logo
     $("#logo").on("mouseover", function(){
         $(this).addClass("animated tada");
     })
@@ -85,6 +86,7 @@ $(document).ready(function(){
         $(this).removeClass("animated tada");
     })
 
+    //animação do mouse
     $(".cabecalho-home__role").on("mouseover", function(){
         $(this).addClass("animated bounce")
     });

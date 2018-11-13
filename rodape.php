@@ -4,7 +4,8 @@
             <div class="container"> <!--INICIO CONTAINER 4-->
                 <div class="rodape__coluna"> <!--Link LOGO-->
                     <a class="logo" href="index.php">Design Responsivo(LOGOMARCA)</a>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus rerum error veritatis itaque, voluptatum provident consequatur molestias suscipit id amet eius aliquam veniam esse consequuntur laudantium, ab fuga eaque dolorum.</p>
+                    <p>O CorpoFit é um programa de treinamento de força e condicionamento físico desenvolvido para melhorar a competência do indivíduo em todas as tarefas físicas.
+Este programa proporciona a mais ampla adaptação fisiológica a qualquer tipo de pessoa, desde um atleta de elite, até um idoso ou uma criança, pois todos temos as mesmas necessidades, variando apenas a intensidade com que as tarefas são realizadas.</p>
                 </div> <!--Fim DIV logo-->
                 <div class="rodape__coluna"><!--Div links Redes Sociais-->
                     <h2 class="rodape__titulo">Social</h2>
