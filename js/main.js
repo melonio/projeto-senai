@@ -93,4 +93,9 @@ $(document).ready(function(){
     $(".cabecalho-home__role").on("mouseout", function(){
         $(this).removeClass("animated bounce")
     });
+
+    if(pagina == 2)
+    {
+        $(".pagina-cabecalho").css("background-color", "#82448d");
+    }
 });

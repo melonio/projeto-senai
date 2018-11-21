@@ -8,12 +8,14 @@
                 <h1 class="pagina-cabecalho__titulo">Sobre Nós</h1>
             </header>
             <section class="container pagina-conteudo">
-                <p class="text-center">Aliquam erat voulpat. Vivamus cursus pulvinar turpis.</p>
+                <p class="text-center">Crescemos em consequência <br/>da sua evolução</p>
                 <img src="img2/athletes-endurance.jpg" class="img" style="width: 100%; margin: auto !important;" alt="Mesa de escritório com aperto de mão">
-                <p>Integer vulputate voluptatum nulla, nec malessuada nibh imperdie ut. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt nostrum doloremque, blanditiis eligendi eius enim dignissimos facilis reprehenderit voluptatem quisquam aspernatur dolor aperiam a nam dolorum corporis amet repudiandae culpa.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum distinctio illo maxime error quas. Velit nobis quisquam eius repellat quasi ex sequi, animi ea perferendis dolore dolorem et eum cumque!</p>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorem vel voluptatibus possimus ipsam iusto, molestiae dignissimos similique, placeat nam delectus. Tempore expedita assumenda, repellendus eum voluptas inventore provident impedit. </p>
+                <p>Nós da academia Corpofit queremos tornar a saúde e a aptidão física disponíveis para todos, qual seja o seu estilo de vida. É por isso que criamos uma academia com ótimo custo-benefício e que fica aberta o maior tempo possível. Nos preocupamos em oferecer para com nossos clientes equipamentos adequados e seguros para que possam desenvolver suas atividades físicas com o máximo de comodidade e segurança possível.</p>
+                <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum distinctio illo maxime error quas. Velit nobis quisquam eius repellat quasi ex sequi, animi ea perferendis dolore dolorem et eum cumque!</p> -->
+                <p>Logo, nossa idéia é disponibilizar serviços a um preço justo, com ótimos equipamentos e salas limpas. Estamos em constante processo de melhoramente na busca pela melhor experiência de nossos clientes.</p>
             </section>
         </article>
-        
+        <script>
+            var pagina = 2;
+        </script>
 <?php include "rodape.php"?>    

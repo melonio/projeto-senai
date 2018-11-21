@@ -28,7 +28,7 @@ Este programa proporciona a mais ampla adaptação fisiológica a qualquer tipo 
             </div>
         </div> <!--DIV Conteudo rodape--> 
         <div class="rodape__linha-2"><!--Direitos reservados-->
-            <?php echo date('Y') ?> - Todos os direitos reservados©-Renato Pasklan™ 
+            <?php echo date('Y') ?> - Todos os direitos reservados©-CORPOFIT™ 
         </div> <!--Fim Direitos reservados-->
     </footer>
     <!--JavaScript AQUI-->
