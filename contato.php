@@ -35,7 +35,8 @@
            <h1 class="pagina-cabecalho__titulo">Contato</h1>
        </header>
        <section class="container pagina-conteudo">
-           <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+           <p class="text-center">Fique à vontade pra enviar suas dúvidas, reclamações, sugestões e elogios. <br/>
+           Ficaremos muito felizes em recebê-lo!</p>
            <form action="#" class="formulario" method="POST">
 
             <?php if($erroFormulario != ''): ?>
@@ -64,10 +65,7 @@
                 <input class="formulario__botao" type="submit" value="Enviar" name="submit">
            </form>
            <p class="text-center">
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, 
-               dicta maiores eaque provident blanditiis ipsa fugiat commodi error dolorum! 
-               Architecto praesentium commodi voluptates autem corporis nulla rem libero
-               tempore sunt!
+               Visite-nos, temos mais de 50 acadêmias especializadas em todo o Brasil.
            </p>
            <div class="mapa">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51862.55228089609!2d139.6576064189874!3d35.66691721267005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cb2eb3108d1%3A0xf11cd9b2395b6677!2zU2hpYnV5YSwgVMOzcXVpbywgSmFww6Nv!5e0!3m2!1spt-BR!2sbr!4v1534186589810" width="100%" height="450" frameborder="450" style="border:0" allowfullscreen></iframe>

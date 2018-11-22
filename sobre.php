@@ -16,6 +16,6 @@
             </section>
         </article>
         <script>
-            var pagina = 2;
+            
         </script>
 <?php include "rodape.php"?>    

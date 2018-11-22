@@ -4,7 +4,7 @@
     include "cabecalho.php"; 
 ?>
         <header class="cabecalho-home">
-            <h2 class="cabecalho-home__titulo animated jello delay-2s">Viva a vida com a intensidade que ela merece!</h2>
+            <h2 class="cabecalho-home__titulo" style="text-shadow: 0 0 10px #015666;">Viva a vida com a intensidade que ela merece!</h2>
             <p style="display: none;" class="cabecalho-home__lista">Texto menor</p>
             <a class="cabecalho-home__role" href="#servicos">Role para ver mais</a>
         </header>

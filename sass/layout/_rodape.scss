@@ -77,7 +77,7 @@
 
 
 .fa-facebook-f:before, .fa-twitter:before, .fa-instagram:before, .fa-youtube:before {
-    $valor: 19px;
+    $valor: 23px;
     display: block;
     border-radius: $valor/2;
     font-size: ($valor/2)-2;
@@ -87,4 +87,15 @@
     line-height: $valor; 
     background-color: #fff;
     color: #015162;
+}
+
+.fa-twitter:before{
+    background-color: #81e0fe;
+}
+.fa-facebook-f:before, .fa-instagram:before{
+    background-color: #fde67b;
+}
+
+.fa-youtube:before{
+    background-color: #fb6b6f;
 }

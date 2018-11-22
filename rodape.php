@@ -19,10 +19,10 @@ Este programa proporciona a mais ampla adaptação fisiológica a qualquer tipo 
                 <div class="rodape__coluna"> <!--LINKS-->
                     <h2 class="rodape__titulo">Links</h2>
                     <ul class="rodape__lista-links">
-                        <li><a class="rodape__lista-links__item" href="index.html">Home</a></li>
-                        <li><a class="rodape__lista-links__item" href="sobre.html">Sobre</a></li>
-                        <li><a class="rodape__lista-links__item" href="portifolio.html">Portifolio</a></li>
-                        <li><a class="rodape__lista-links__item" href="contato.html">Contato</a></li>
+                        <li><a class="rodape__lista-links__item" href="index.php">Home</a></li>
+                        <li><a class="rodape__lista-links__item" href="sobre.php">Sobre</a></li>
+                        <li><a class="rodape__lista-links__item" href="portifolio.php">Portifolio</a></li>
+                        <li><a class="rodape__lista-links__item" href="contato.php">Contato</a></li>
                     </ul>
                 </div> <!--Fim Links-->
             </div>

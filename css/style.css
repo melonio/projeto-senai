@@ -467,6 +467,8 @@ template {
   width: 100%;
   border: 1px solid #c4c4c4;
   border-radius: 5px;
+  padding: 10px;
+  margin-top: 3px;
 }
 .formulario__label {
   color: #343434;
@@ -705,7 +707,6 @@ template {
   .cabecalho-home__titulo {
     font-size: 60px;
     margin-top: 200px;
-    text-shadow: 0 0 10px #015666;
   }
   .cabecalho-home__subtitulo {
     font-size: 23px;
@@ -929,14 +930,26 @@ template {
 
 .fa-facebook-f:before, .fa-twitter:before, .fa-instagram:before, .fa-youtube:before {
   display: block;
-  border-radius: 9.5px;
-  font-size: 7.5px;
-  height: 19px;
-  width: 19px;
+  border-radius: 11.5px;
+  font-size: 9.5px;
+  height: 23px;
+  width: 23px;
   text-align: center;
-  line-height: 19px;
+  line-height: 23px;
   background-color: #fff;
   color: #015162;
+}
+
+.fa-twitter:before {
+  background-color: #81e0fe;
+}
+
+.fa-facebook-f:before, .fa-instagram:before {
+  background-color: #fde67b;
+}
+
+.fa-youtube:before {
+  background-color: #fb6b6f;
 }
 
 .container {
