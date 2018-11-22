@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/png" href="icone.png" />
     <?php
-        $titulo = "Design Responsivo";
+        $titulo = "CORPOFIT";
         global $tituloPagina;
         
         if ($tituloPagina == $tituloPagina . '') {
